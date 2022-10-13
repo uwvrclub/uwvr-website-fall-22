@@ -16,6 +16,10 @@
   justify-content: end;
 }
 
+.menu-btn {
+    color: white;
+}
+
 a {
   margin: 0 2rem;
   color: white;

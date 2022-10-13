@@ -16,6 +16,9 @@ function NavBar() {
           <a href="/contact">Contact</a>
         </li>
       </ul>
+      <div className="menu-btn">
+        <i className="fas fa-bars" />
+      </div>
     </nav>
   );
 }
