@@ -37,7 +37,7 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 80vw;
+  width: 75vw;
   justify-content: flex-end;
   margin-right: 2rem;
   display: inline-flex;
@@ -69,13 +69,13 @@
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 968px) {
   .nav-logo img {
     display: none;
   }
 
   .nav-menu {
-    display: flex;
+    display:block;
     flex-direction: column;
     width: 100%;
     height: 90vh;
