@@ -2,22 +2,37 @@ import React, { useState } from "react";
 import styles from "../styles/NavBar.css";
 
 function NavBar() {
+  const [menuToggled, setMenuToggled] = useState(false);
+
+  const handleClick = () => {
+    setMenuToggled(!menuToggled);
+  };
+
+  const handleMobileClick = () => {
+    setMenuToggled(false);
+  };
+  
+
   return (
     <nav className="navbar">
-      <a>UWVR</a>
-      <ul className="nav-menu">
-        <li className="nav-menu-item">
-          <a href="/">Home</a>
-        </li>
-        <li className="nav-menu-item">
-          <a href="/about">About</a>
-        </li>
-        <li className="nav-menu-item">
-          <a href="/contact">Contact</a>
-        </li>
-      </ul>
-      <div className="menu-btn">
-        <i className="fas fa-bars" />
+      <div className="nav-logo">
+        <a href="/">UWVR</a>
+      </div>
+      <div className="nav-menu-container" onClick={handleMobileClick}>
+        <ul className={menuToggled ? "nav-menu expanded" : "nav-menu"}>
+          <li className="nav-menu-item">
+            <a href="/">Home</a>
+          </li>
+          <li className="nav-menu-item">
+            <a href="/about">About</a>
+          </li>
+          <li className="nav-menu-item">
+            <a href="/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div className="menu-btn" onClick={handleClick}>
+        <i className={menuToggled ? "fas fa-times" : "fas fa-bars"} />
       </div>
     </nav>
   );
