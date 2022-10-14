@@ -16,7 +16,8 @@ function NavBar() {
   return (
     <nav className="navbar">
       <div className="nav-logo">
-        <a href="/">UWVR</a>
+        <a href="/">UWVR
+        <img src="images/uwvr-logo-transparent.png" alt='UWVR Logo' width="95px" height="95px"/></a>
       </div>
       <div className="nav-menu-container" onClick={handleMobileClick}>
         <ul className={menuToggled ? "nav-menu expanded" : "nav-menu"}>
