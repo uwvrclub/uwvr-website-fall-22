@@ -34,6 +34,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <small class='uwvr-website-rights'>UWVR &copy; 2022</small>
     </div>
   );
 };
