@@ -8,29 +8,29 @@ const Footer = () => {
         <div className="footer-menu-wrapper">
           <div className="footer-menu-items">
             <h2>About</h2>
-            <a href="/">Execs</a>
-            <a href="/">Execs</a>
-            <a href="/">Execs</a>
+            <a href="/">Placeholders</a>
+            <a href="/">Placeholders</a>
+            <a href="/">Placeholders</a>
           </div>
           <div className="footer-menu-items">
-            <h2>About</h2>
-            <a href="/">Execs</a>
-            <a href="/">Execs</a>
-            <a href="/">Execs</a>
+            <h2>Contact</h2>
+            <a href="/">Placeholders</a>
+            <a href="/">Placeholders</a>
+            <a href="/">Placeholders</a>
           </div>
         </div>
         <div className="footer-menu-wrapper">
           <div className="footer-menu-items">
-            <h2>About</h2>
-            <a href="/">Execs</a>
-            <a href="/">Execs</a>
-            <a href="/">Execs</a>
+            <h2>Events</h2>
+            <a href="/">Placeholders</a>
+            <a href="/">Placeholders</a>
+            <a href="/">Placeholders</a>
           </div>
           <div className="footer-menu-items">
             <h2>About</h2>
-            <a href="/">Execs</a>
-            <a href="/">Execs</a>
-            <a href="/">Execs</a>
+            <a href="/">Placeholders</a>
+            <a href="/">Placeholders</a>
+            <a href="/">Placeholders</a>
           </div>
         </div>
       </div>
