@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import '../styles/NavBar.css'
 
 function NavBar() {
   const [menuToggled, setMenuToggled] = useState(false);
@@ -10,13 +11,13 @@ function NavBar() {
   const handleMobileClick = () => {
     setMenuToggled(false);
   };
-  
+
 
   return (
     <nav className="navbar">
       <div className="nav-logo">
         <a href="/">UWVR
-        <img src="images/uwvr-logo-transparent.png" alt='UWVR Logo' width="95px" height="95px"/></a>
+          <img src="images/uwvr-logo-transparent.png" alt='UWVR Logo' width="95px" height="95px" /></a>
       </div>
       <div className="nav-menu-container" onClick={handleMobileClick}>
         <ul className={menuToggled ? "nav-menu expanded" : "nav-menu"}>
