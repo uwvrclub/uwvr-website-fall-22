@@ -1,0 +1,15 @@
+.socials-button-group-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.social-button-icon {
+  color: #aaaaaa;
+  transition: all 0.15s ease-in;
+  text-decoration: none;
+
+  &:hover {
+    color: #333333;
+  }
+}
