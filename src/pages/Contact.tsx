@@ -1,11 +1,17 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
+import '../styles/Contact.scss'
 
 const Contact = () => {
     return (
         <div>
             <NavBar />
-            <h1>Contact</h1>
+            <div className='contact'>
+                <div className='hero-wrapper'>
+                  <h1>Contact Us</h1>
+                </div>
+                
+            </div>
         </div>
     )
 }

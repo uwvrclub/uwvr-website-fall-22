@@ -1,0 +1,33 @@
+.contact {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    background-image: url('../../public/images/contact.jpg');
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .hero-wrapper {
+    height: 250px;
+    width: 100%;
+    display: table;
+    align-items: center;
+    text-align: center;
+    opacity: 0.3;
+    background-color: black;
+  }
+
+
+h1 {
+    vertical-align: middle;
+    line-height: 250px;
+    font-size: 50pt;
+}
+
+
