@@ -12,17 +12,21 @@ function Contacts() {
                 </p>
                 <p>
                     Instagram:{' '}
-                    <a href="https://www.instagram.com/uwvrclub/">@uwvrclub</a>
-                </p>
-                <p>
-                    Facebook:{' '}
-                    <a href="https://www.facebook.com/UWaterlooVR/">
-                        UWVR Club
+                    <a
+                        href="https://www.instagram.com/uwvrclub/"
+                        target="_blank"
+                    >
+                        @uwvrclub
                     </a>
                 </p>
                 <p>
-                    Discord:{' '}
-                    <a href="mailto:uwvrclub@gmail.com">uwvrclub@gmail.com</a>
+                    Facebook:{' '}
+                    <a
+                        href="https://www.facebook.com/UWaterlooVR/"
+                        target="_blank"
+                    >
+                        UWVR Club
+                    </a>
                 </p>
             </div>
         </div>
