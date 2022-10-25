@@ -1,18 +1,17 @@
 import React from 'react'
+import ContactHero from '../components/ContactHero'
+import Contacts from '../components/Contacts'
+import Footer from '../components/Footer'
 import NavBar from '../components/NavBar'
-import '../styles/Contact.scss'
 
 const Contact = () => {
     return (
-        <div>
+        <>
             <NavBar />
-            <div className='contact'>
-                <div className='hero-wrapper'>
-                  <h1>Contact Us</h1>
-                </div>
-                
-            </div>
-        </div>
+            <ContactHero title="Contact Us" />
+            <Contacts />
+            <Footer />
+        </>
     )
 }
 
