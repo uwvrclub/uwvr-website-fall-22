@@ -1,0 +1,33 @@
+.main {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(198, 217, 223);
+    align-items: center;
+    justify-content: center;
+    line-height: 2;
+    margin: auto;
+    vertical-align: middle;
+
+    h2 {
+        text-align: center;
+        vertical-align: middle;
+        font-size: 32pt;
+        margin-bottom: 30px;
+    }
+
+    .contacts-wrapper {
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    p {
+        font-size: 18pt;
+    }
+}
