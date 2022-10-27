@@ -34,6 +34,12 @@ function NavBar() {
                         <a href="/about">About</a>
                     </li>
                     <li className="nav-menu-item">
+                        <a href="/events">Events</a>
+                    </li>
+                    <li className="nav-menu-item">
+                        <a href="/projects">Projects</a>
+                    </li>
+                    <li className="nav-menu-item">
                         <a href="/contact">Contact</a>
                     </li>
                 </ul>
