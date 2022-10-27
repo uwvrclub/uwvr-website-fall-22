@@ -8,7 +8,7 @@ const About = () => {
     return (
         <div>
             <NavBar />
-            <HeroBanner src="images/about.jpeg" title="About Us" />
+            <HeroBanner src="images/about.png" title="About Us" />
             <section className="section-misson">
                 <div className="mission-wrapper">
                     <h2>Our Mission</h2>
@@ -32,11 +32,19 @@ const About = () => {
                                 students to take on various VR/AR projects and
                                 showcase the potential of VR/AR.
                             </p>
+                            <div className="button-wrapper">
+                                <a className="button" href="/projects">
+                                    Learn More
+                                </a>
+                            </div>
                         </div>
-                        <img src="images/ctrlv.jpg" alt="Ctrl V" />
+                        <img src="images/projects.png" alt="Projects" />
                     </div>
                     <div className="about-wrapper-right">
-                        <img src="images/ctrlv.jpg" alt="Ctrl V" />
+                        <img
+                            src="images/podcast.png"
+                            alt="Podcasts &amp; Workshops"
+                        />
                         <div className="right">
                             <h2>Podcasts &amp; Workshops</h2>
                             <p>
@@ -44,6 +52,11 @@ const About = () => {
                                 spread awareness and knowledge about
                                 developments in the XR world.
                             </p>
+                            <div className="button-wrapper">
+                                <a className="button" href="/podcasts">
+                                    Read More
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div className="about-wrapper-left">
@@ -54,11 +67,19 @@ const About = () => {
                                 to network within and get involved with their
                                 community.
                             </p>
+                            <div className="button-wrapper">
+                                <a className="button" href="/events">
+                                    Our Events
+                                </a>
+                            </div>
                         </div>
                         <img src="images/ctrlv.jpg" alt="Ctrl V" />
                     </div>
                     <div className="about-wrapper-right">
-                        <img src="images/ctrlv.jpg" alt="Ctrl V" />
+                        <img
+                            src="images/get-involved.jpeg"
+                            alt="Get Involved"
+                        />
                         <div className="right">
                             <h2>Get Involved</h2>
                             <p>
@@ -66,7 +87,11 @@ const About = () => {
                                 companies in the field of VR/AR and to create
                                 new professional opportunities.
                             </p>
-                            <p></p>
+                            <div className="button-wrapper">
+                                <a className="button" href="/get-involved">
+                                    Get Involved
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
