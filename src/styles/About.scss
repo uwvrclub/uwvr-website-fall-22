@@ -13,19 +13,27 @@
     }
 }
 
-
-
-
 .about {
     background-color: rgb(190, 193, 197);
     width: 100%;
     display: table;
+    justify-content: center;
+
+    h2 {
+        //line-height: 3;
+        font-size: 26pt;
+        margin-bottom: 30px;
+    }
+
+    p {
+        margin: 0 20px 0;
+        font-size: 18pt;
+    }
 
     img {
         height: auto;
         width: 100%;
         padding: 0;
-        margin-bottom: -7px;
     }
 
     .about-wrapper-left {
@@ -34,6 +42,7 @@
         text-align: center;
 
         .left {
+            vertical-align: middle;
             width: 50%;
             display: table-cell;
             background: green;
@@ -41,15 +50,18 @@
         }
 
         .right {
+            vertical-align: middle;
             display: table-cell;
             background: blue;
         }
     }
 
     .about-wrapper-right {
+        align-items: center;
         display: table-row;
         height: auto;
         text-align: center;
+        vertical-align: middle;
 
         img {
             display: flex;
@@ -59,11 +71,13 @@
         }
 
         .left {
+            vertical-align: middle;
             display: table-cell;
             background: blue;
         }
 
         .right {
+            vertical-align: middle;
             width: 50%;
             display: table-cell;
             background: green;

@@ -26,26 +26,47 @@ const About = () => {
                 <div className="about">
                     <div className="about-wrapper-left">
                         <div className="left">
-                          <h2>About</h2>
+                            <h2>Projects</h2>
+                            <p>
+                                Through our tech projects, we aim to inspire
+                                students to take on various VR/AR projects and
+                                showcase the potential of VR/AR.
+                            </p>
                         </div>
-                        <img src="images/ctrlv.jpg" alt="Ctrl V"/>
+                        <img src="images/ctrlv.jpg" alt="Ctrl V" />
                     </div>
                     <div className="about-wrapper-right">
-                        <img src="images/ctrlv.jpg" alt="Ctrl V"/>
+                        <img src="images/ctrlv.jpg" alt="Ctrl V" />
                         <div className="right">
-                          <h2>About</h2>
+                            <h2>Podcasts &amp; Workshops</h2>
+                            <p>
+                                Through our podcast and workshops, we aim to
+                                spread awareness and knowledge about
+                                developments in the XR world.
+                            </p>
                         </div>
                     </div>
                     <div className="about-wrapper-left">
                         <div className="left">
-                          <h2>About</h2>
+                            <h2>Events</h2>
+                            <p>
+                                Through our events, we aim to encourage students
+                                to network within and get involved with their
+                                community.
+                            </p>
                         </div>
-                        <img src="images/ctrlv.jpg" alt="Ctrl V"/>
+                        <img src="images/ctrlv.jpg" alt="Ctrl V" />
                     </div>
                     <div className="about-wrapper-right">
-                        <img src="images/ctrlv.jpg" alt="Ctrl V"/>
+                        <img src="images/ctrlv.jpg" alt="Ctrl V" />
                         <div className="right">
-                          <h2>About</h2>
+                            <h2>Get Involved</h2>
+                            <p>
+                                The UWVR club strives to connect students with
+                                companies in the field of VR/AR and to create
+                                new professional opportunities.
+                            </p>
+                            <p></p>
                         </div>
                     </div>
                 </div>
