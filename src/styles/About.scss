@@ -1,0 +1,111 @@
+.section-misson {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    background-color: #d8d8d8;
+    text-align: center;
+    align-items: center;
+    line-height: 2;
+
+    h2 {
+        font-size: 26pt;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 18pt;
+    }
+
+    .mission-wrapper {
+        margin: 0 150px 0;
+    }
+}
+
+.about {
+    h2,
+    p {
+        font-family: 'roboto';
+    }
+
+    background-color: rgb(190, 193, 197);
+    width: 100%;
+    display: table;
+    justify-content: center;
+
+    .button-wrapper:hover {
+        transform: scale(1.1);
+    }
+
+    .button {
+        background-color: black;
+        color: white;
+        padding: 15px 25px;
+        text-decoration: none;
+    }
+
+    h2 {
+        font-size: 26pt;
+        margin-bottom: 30px;
+    }
+
+    p {
+        margin: 0 20px 50px;
+        font-size: 18pt;
+    }
+
+    img {
+        height: auto;
+        width: 100%;
+        padding: 0;
+    }
+
+    .about-wrapper-left {
+        display: table-row;
+        height: auto;
+        text-align: center;
+
+        .left {
+            vertical-align: middle;
+            width: 50%;
+            display: table-cell;
+            background: green;
+            background-color: rgb(190, 193, 197);
+        }
+
+        .right {
+            vertical-align: middle;
+            display: table-cell;
+            background: blue;
+        }
+    }
+
+    .about-wrapper-right {
+        align-items: center;
+        display: table-row;
+        height: auto;
+        text-align: center;
+        vertical-align: middle;
+
+        img {
+            display: flex;
+            height: auto;
+            width: 100%;
+            background-color: rgb(190, 193, 197);
+        }
+
+        .left {
+            vertical-align: middle;
+            display: table-cell;
+            background: blue;
+        }
+
+        .right {
+            vertical-align: middle;
+            width: 50%;
+            display: table-cell;
+            background: green;
+            background-color: rgb(190, 193, 197);
+        }
+    }
+}
