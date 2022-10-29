@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { EventsData } from './EventsData'
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa'
 import '../styles/EventsSlider.scss'
 
