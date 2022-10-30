@@ -84,7 +84,7 @@ const About = () => {
                                 new professional opportunities.
                             </p>
                             <div className="button-wrapper">
-                                <a className="button" href="/get-involved">
+                                <a className="button" href="/contact">
                                     Get Involved
                                 </a>
                             </div>

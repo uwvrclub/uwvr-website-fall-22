@@ -20,4 +20,18 @@
     .mission-wrapper {
         margin: 0 150px 0;
     }
+
+    @media screen and (max-width: 968px) {
+        h2 {
+            font-size: 16pt;
+        }
+
+        p {
+            font-size: 12pt;
+        }
+
+        .mission-wrapper {
+            margin: 0 50px 0;
+        }
+    }
 }
