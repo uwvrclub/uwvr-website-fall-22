@@ -1,33 +1,4 @@
-.section-misson {
-    display: flex;
-    width: 100%;
-    height: 400px;
-    justify-content: center;
-    background-color: #d8d8d8;
-    text-align: center;
-    align-items: center;
-    line-height: 2;
-
-    h2 {
-        font-size: 26pt;
-        margin-bottom: 20px;
-    }
-
-    p {
-        font-size: 18pt;
-    }
-
-    .mission-wrapper {
-        margin: 0 150px 0;
-    }
-}
-
 .about {
-    h2,
-    p {
-        font-family: 'roboto';
-    }
-
     background-color: rgb(190, 193, 197);
     width: 100%;
     display: table;
@@ -46,12 +17,43 @@
 
     h2 {
         font-size: 26pt;
+        margin-top: -10px;
         margin-bottom: 30px;
     }
 
     p {
         margin: 0 20px 50px;
         font-size: 18pt;
+    }
+
+    @media screen and (max-width: 968px) {
+        h2 {
+            font-size: 20pt;
+            margin-top: -10px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin: 0 20px 30px;
+            font-size: 12pt;
+        }
+
+        .button {
+            font-size: 10pt;
+            padding: 10px 20px;
+        }
+    }
+
+    @media screen and (max-width: 868px) {
+        h2 {
+            font-size: 14pt;
+            margin-bottom: 16px;
+        }
+
+        p {
+            margin: 0 20px 30px;
+            font-size: 10pt;
+        }
     }
 
     img {
