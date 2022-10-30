@@ -12,9 +12,12 @@ function Events() {
     return (
         <>
             <NavBar />
-            <HeroBanner title="Events" />
-            <EventsSlider events={PastEventsData} />
-            <EventsSlider events={UpcomingEventsData} />
+            <HeroBanner src="images/ctrlv.jpg" title="Events" />
+            <EventsSlider
+                events={UpcomingEventsData}
+                heading="Upcoming Events"
+            />
+            <EventsSlider events={PastEventsData} heading="Past Events" />
             <Footer />
         </>
     )

@@ -4,6 +4,7 @@ import '../styles/EventsSlider.scss'
 
 interface EventsData {
     events?: Array<any>
+    heading?: string
 }
 
 const EventsSlider = (props: EventsData) => {
@@ -21,18 +22,27 @@ const EventsSlider = (props: EventsData) => {
     if (!Array.isArray(props.events) || props.events?.length <= 0) return null
 
     return (
-        <div className="slider">
-            <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-            <FaArrowAltCircleRight
-                className="right-arrow"
-                onClick={nextSlide}
-            />
-            <div className="slide active">
-                <img src={props.events[currentSlide].image} className="image" />
-                <h2>{props.events[currentSlide].title}</h2>
-                <p>{props.events[currentSlide].content}</p>
+        <>
+            <h2>{props.heading}</h2>
+            <div className="slider">
+                <FaArrowAltCircleLeft
+                    className="left-arrow"
+                    onClick={prevSlide}
+                />
+                <FaArrowAltCircleRight
+                    className="right-arrow"
+                    onClick={nextSlide}
+                />
+                <div className="slide active">
+                    <img
+                        src={props.events[currentSlide].image}
+                        className="image"
+                    />
+                    <h3>{props.events[currentSlide].title}</h3>
+                    <p>{props.events[currentSlide].content}</p>
+                </div>
             </div>
-        </div>
+        </>
     )
 }
 
