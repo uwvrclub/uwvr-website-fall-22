@@ -1,0 +1,23 @@
+.section-misson {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    background-color: #d8d8d8;
+    text-align: center;
+    align-items: center;
+    line-height: 2;
+
+    h2 {
+        font-size: 26pt;
+        margin: 0 0 20px;
+    }
+
+    p {
+        font-size: 18pt;
+    }
+
+    .mission-wrapper {
+        margin: 0 150px 0;
+    }
+}

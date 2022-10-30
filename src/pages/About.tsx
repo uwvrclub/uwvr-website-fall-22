@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import HeroBanner from '../components/HeroBanner'
+import MissionStatement from '../components/MissionStatement'
 import NavBar from '../components/NavBar'
 import '../styles/About.scss'
 
@@ -9,19 +10,14 @@ const About = () => {
         <div>
             <NavBar />
             <HeroBanner src="images/about.png" title="About Us" />
-            <section className="section-misson">
-                <div className="mission-wrapper">
-                    <h2>Our Mission</h2>
-                    <p className="max-w-lg text-lg md:text-center font-light font-poppins italic">
-                        The University of Waterloo Virtual Reality Club (UWVR)
+            <MissionStatement
+                title="Our Mission"
+                content="The University of Waterloo Virtual Reality Club (UWVR)
                         was the first university VR club in Canada! Our main
                         vision for the club was and remains to make room for
                         undergraduate students to contribute to and explore the
-                        wondrous world of XR (VR &amp; AR).
-                    </p>
-                </div>
-            </section>
-
+                        wondrous world of XR (VR &amp; AR)."
+            />
             <section className="section-about">
                 <div className="about">
                     <div className="about-wrapper-left">
@@ -53,7 +49,7 @@ const About = () => {
                                 developments in the XR world.
                             </p>
                             <div className="button-wrapper">
-                                <a className="button" href="/podcasts">
+                                <a className="button" href="/projects">
                                     Read More
                                 </a>
                             </div>
