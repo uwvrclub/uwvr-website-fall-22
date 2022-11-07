@@ -6,6 +6,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import NoPage from './pages/NoPage'
 import Events from './pages/Events'
+import Projects from './pages/Projects'
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <Route path="about" element={<About />} />
                 <Route path="contact" element={<Contact />} />
                 <Route path="events" element={<Events />} />
+                <Route path="projects" element={<Projects />} />
                 <Route path="*" element={<NoPage />} />
             </Routes>
         </BrowserRouter>
