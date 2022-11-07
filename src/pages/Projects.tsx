@@ -7,7 +7,7 @@ function Projects() {
     return (
         <>
             <NavBar />
-            <HeroBanner title="Projects" />
+            <HeroBanner title="Projects" src=""/>
 
             <Footer />
         </>
