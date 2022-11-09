@@ -8,7 +8,7 @@ const NoPage = () => {
     return (
         <div>
             <NavBar />
-            <HeroBanner src="images/404.jpg" title="Page Not Found" />
+            <HeroBanner src="images/banners/no-page.jpg" title="Page Not Found" />
             <div className="no-page-content">
                 <div className="no-page-content-wrapper">
                     <h2>Sorry, the page you were looking does not exist.</h2>
