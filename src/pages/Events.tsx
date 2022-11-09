@@ -11,7 +11,7 @@ function Events() {
     return (
         <>
             <NavBar />
-            <HeroBanner src="images/ctrlv.jpg" title="Events" />
+            <HeroBanner src="images/banners/events.jpg" title="Events" />
             <EventsSlider
                 events={UpcomingEventsData}
                 heading="Upcoming Events"

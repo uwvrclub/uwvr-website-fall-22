@@ -9,24 +9,24 @@ function Projects() {
     return (
         <>
             <NavBar />
-            <HeroBanner title="Projects" src="images/projects.jpeg" />
+            <HeroBanner title="Projects" src="images/banners/projects.jpeg" />
             <div className="projects">
                 <h2>Current Projects</h2>
 
                 <div className="projects-container">
                     <ProjectCard
                         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Dignissim enim sit amet venenatis urna cursus eget nunc."
-                        src="images/events-placeholder.jpeg"
+                        src="images/events/events-placeholder.jpeg"
                         alt=""
                     />
                     <ProjectCard
                         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Dignissim enim sit amet venenatis urna cursus eget nunc."
-                        src="images/events-placeholder.jpeg"
+                        src="images/events/events-placeholder.jpeg"
                         alt=""
                     />
                     <ProjectCard
                         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Dignissim enim sit amet venenatis urna cursus eget nunc."
-                        src="images/events-placeholder.jpeg"
+                        src="images/events/events-placeholder.jpeg"
                         alt=""
                     />
                 </div>
@@ -35,12 +35,12 @@ function Projects() {
                 <div className="projects-container">
                     <ProjectCard
                         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Dignissim enim sit amet venenatis urna cursus eget nunc."
-                        src="images/events-placeholder.jpeg"
+                        src="images/events/events-placeholder.jpeg"
                         alt=""
                     />
                     <ProjectCard
                         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Dignissim enim sit amet venenatis urna cursus eget nunc."
-                        src="images/events-placeholder.jpeg"
+                        src="images/events/events-placeholder.jpeg"
                         alt=""
                     />
                 </div>

@@ -9,7 +9,7 @@ const About = () => {
     return (
         <div>
             <NavBar />
-            <HeroBanner src="images/about.png" title="About Us" />
+            <HeroBanner src="images/banners/about.jpg" title="About Us" />
             <MissionStatement
                 title="Our Mission"
                 content="The University of Waterloo Virtual Reality Club (UWVR)
@@ -34,11 +34,11 @@ const About = () => {
                                 </a>
                             </div>
                         </div>
-                        <img src="images/projects.png" alt="Projects" />
+                        <img src="images/projects/projects.png" alt="Projects" />
                     </div>
                     <div className="about-wrapper-right">
                         <img
-                            src="images/podcast.png"
+                            src="images/projects/podcast.png"
                             alt="Podcasts &amp; Workshops"
                         />
                         <div className="right">
@@ -69,7 +69,7 @@ const About = () => {
                                 </a>
                             </div>
                         </div>
-                        <img src="images/ctrlv.jpg" alt="Ctrl V" />
+                        <img src="images/events/ctrlv.jpg" alt="Ctrl V" />
                     </div>
                     <div className="about-wrapper-right">
                         <img

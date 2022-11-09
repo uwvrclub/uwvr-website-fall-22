@@ -11,7 +11,7 @@ function HeroBanner(props: HeroBannerProps) {
         hero: {
             background: props.src
                 ? 'url(' + props.src + ')'
-                : 'url(images/fallback.jpg)',
+                : 'url(images/banners/fallback.jpg)',
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
