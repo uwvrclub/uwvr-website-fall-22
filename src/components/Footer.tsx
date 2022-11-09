@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="footer-menu">
                 <div className="footer-menu-wrapper">
                     <div className="footer-menu-items">
-                        <h2>About UWVR</h2>
+                        <h2>UWVR Club</h2>
                         <a href="/about">About Us</a>
                         <a href="/gallery">Gallery</a>
                         <a href="/projects">Our Projects</a>
@@ -26,6 +26,9 @@ const Footer = () => {
                             src="images/logos/uwvr-written-logo.png"
                             alt="UWVR Logo"
                         />
+                        <p style={{ color: 'white', textDecoration: 'none' }}>
+                            ****Social Buttons Here?****
+                        </p>
                     </a>
                 </div>
             </div>
