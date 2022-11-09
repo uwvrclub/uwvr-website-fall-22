@@ -7,31 +7,29 @@ const Footer = () => {
             <div className="footer-menu">
                 <div className="footer-menu-wrapper">
                     <div className="footer-menu-items">
-                        <h2>About</h2>
-                        <a href="/">Placeholders</a>
-                        <a href="/">Placeholders</a>
-                        <a href="/">Placeholders</a>
+                        <h2>UWVR Club</h2>
+                        <a href="/about">About Us</a>
+                        <a href="/gallery">Gallery</a>
+                        <a href="/projects">Our Projects</a>
                     </div>
                     <div className="footer-menu-items">
-                        <h2>Contact</h2>
-                        <a href="/">Placeholders</a>
-                        <a href="/">Placeholders</a>
-                        <a href="/">Placeholders</a>
+                        <h2>Get Involved</h2>
+                        <a href="/events">Our Events</a>
+                        <a href="/apply">Join The Team</a>
+                        <a href="/contact">Contact Us</a>
                     </div>
                 </div>
-                <div className="footer-menu-wrapper">
-                    <div className="footer-menu-items">
-                        <h2>Events</h2>
-                        <a href="/">Placeholders</a>
-                        <a href="/">Placeholders</a>
-                        <a href="/">Placeholders</a>
-                    </div>
-                    <div className="footer-menu-items">
-                        <h2>About</h2>
-                        <a href="/">Placeholders</a>
-                        <a href="/">Placeholders</a>
-                        <a href="/">Placeholders</a>
-                    </div>
+
+                <div className="footer-logo">
+                    <a href="/">
+                        <img
+                            src="images/logos/uwvr-written-logo.png"
+                            alt="UWVR Logo"
+                        />
+                        <p style={{ color: 'white', textDecoration: 'none' }}>
+                            ****Social Buttons Here?****
+                        </p>
+                    </a>
                 </div>
             </div>
             <small className="uwvr-website-rights">UWVR &copy; 2022</small>

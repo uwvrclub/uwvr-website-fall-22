@@ -18,7 +18,7 @@ function NavBar() {
                 <a href="/">
                     UWVR
                     <img
-                        src="images/uwvr-logo-transparent.png"
+                        src="images/logos/uwvr-logo-transparent.png"
                         alt="UWVR Logo"
                         width="95px"
                         height="95px"
