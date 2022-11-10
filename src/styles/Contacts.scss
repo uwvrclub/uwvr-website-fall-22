@@ -22,6 +22,14 @@
             text-decoration: none;
         }
 
+        svg {
+            color: white;
+
+            &:hover {
+                color: black;
+            }
+        }
+
         a:hover {
             text-decoration: underline;
         }

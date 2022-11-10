@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Footer.scss'
+import SocialButtons from './SocialButtons'
 
 const Footer = () => {
     return (
@@ -26,13 +27,17 @@ const Footer = () => {
                             src="images/logos/uwvr-written-logo.png"
                             alt="UWVR Logo"
                         />
-                        <p style={{ color: 'white', textDecoration: 'none' }}>
-                            ****Social Buttons Here?****
-                        </p>
+
+                        <SocialButtons
+                            instagram="https://www.instagram.com/uwvrclub/"
+                            linkedin="https://www.linkedin.com/company/uwvr/"
+                            github="https://github.com/uwvrclub/"
+                            facebook="https://facebook.com/uwvrclub/"
+                        />
                     </a>
                 </div>
             </div>
-            <small className="uwvr-website-rights">UWVR &copy; 2022</small>
+            <small className="uwvr-website-rights">&copy; UWVR 2022</small>
         </div>
     )
 }

@@ -15,6 +15,7 @@ function Contacts() {
                     <a
                         href="https://www.instagram.com/uwvrclub/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         @uwvrclub
                     </a>
@@ -24,6 +25,7 @@ function Contacts() {
                     <a
                         href="https://www.facebook.com/UWaterlooVR/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         UWVR Club
                     </a>
