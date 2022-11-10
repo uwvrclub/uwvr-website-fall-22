@@ -34,10 +34,7 @@ const About = () => {
                                 </a>
                             </div>
                         </div>
-                        <img
-                            src="images/projects/projects.png"
-                            alt="Projects"
-                        />
+                        <img src="images/events/vr.png" alt="Projects" />
                     </div>
                     <div className="about-wrapper-right">
                         <img

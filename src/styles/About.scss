@@ -1,5 +1,5 @@
 .about {
-    background-color: rgb(190, 193, 197);
+    background-color: #cfd4f4;
     width: 100%;
     display: table;
     justify-content: center;
@@ -60,6 +60,7 @@
         height: auto;
         width: 100%;
         padding: 0;
+        background-color: #cfd4f4;
     }
 
     .about-wrapper-left {
@@ -72,13 +73,13 @@
             width: 50%;
             display: table-cell;
             background: green;
-            background-color: rgb(190, 193, 197);
+            background-color: #cfd4f4;
         }
 
         .right {
             vertical-align: middle;
             display: table-cell;
-            background: blue;
+            background-color: #cfd4f4;
         }
     }
 
@@ -93,21 +94,20 @@
             display: flex;
             height: auto;
             width: 100%;
-            background-color: rgb(190, 193, 197);
+            background-color: #cfd4f4;
         }
 
         .left {
             vertical-align: middle;
             display: table-cell;
-            background: blue;
+            background-color: #cfd4f4;
         }
 
         .right {
             vertical-align: middle;
             width: 50%;
             display: table-cell;
-            background: green;
-            background-color: rgb(190, 193, 197);
+            background-color: #cfd4f4;
         }
     }
 }

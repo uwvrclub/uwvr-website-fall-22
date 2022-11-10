@@ -8,13 +8,14 @@ import '../styles/Home.scss'
 
 const Home = () => {
     return (
-        <div>
+        <div className="home">
             <NavBar />
             <Hero />
             <PurposeStatement
                 title="Our Purpose"
                 content="The University of Waterloo Virtual Reality Club (UWVR) aims to allow students the opportunities to explore, experience, and contribute to the fascinating world of XR."
             />
+
             <div className="projects">
                 <div className="projects-container">
                     <ProjectCard
