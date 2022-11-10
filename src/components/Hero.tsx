@@ -5,14 +5,27 @@ const Hero = () => {
     return (
         <div className="hero-container">
             <video src="/videos/home.mp4" autoPlay loop muted />
-            <h1 style={{ color: 'white' }}>UWVR</h1>
-            <h2 style={{ color: 'white' }}>Explore the wondrous world of XR</h2>
-            <a href="/projects">
-                <span>Our Projects</span>
-            </a>
-            <a href="/events">
-                <span>Our Events</span>
-            </a>
+            <div className="hero-wrapper">
+                <h1>UWVR</h1>
+                <h2>Explore the wondrous world of XR</h2>
+                <br />
+
+                {
+                    // To add buttons in the future
+                    /*
+                        <div className="button-wrapper">
+                            <a href="/projects" className="button">
+                                <span>Our Projects</span>
+                            </a>
+                        </div>
+                        <div className="button-wrapper">
+                            <a href="/projects" className="button">
+                                <span>Our Projects</span>
+                            </a>
+                        </div>
+                    */
+                }
+            </div>
         </div>
     )
 }
