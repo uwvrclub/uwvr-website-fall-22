@@ -1,7 +1,6 @@
 # UWVR Main Club Website (Under Construction)
 
--  Live Website URL: tbd
-
+-   Live Website URL: tbd
 
 ## Install Dependencies
 

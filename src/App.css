@@ -11,6 +11,7 @@ h3 {
 }
 
 p,
-a {
+a,
+small {
     font-family: 'Poppins', sans-serif;
 }
