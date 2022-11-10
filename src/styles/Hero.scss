@@ -6,6 +6,46 @@ video {
     z-index: -1;
 }
 
+.hero-wrapper {
+    height: 250px;
+    width: 100%;
+    display: table;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.4);
+
+    h1,
+    h2,
+    a,
+    p {
+        color: white;
+    }
+
+    h1 {
+        margin-bottom: -125px;
+    }
+
+    a {
+        text-decoration: none;
+        margin-right: 20px;
+    }
+
+    a:hover {
+        transform: scale(1.1);
+    }
+
+    .button {
+        background-color: black;
+        color: #cfd4f4;
+        padding: 10px 20px;
+        text-decoration: none;
+    }
+
+    .button-wrapper:hover {
+        transform: scale(1.1);
+    }
+}
+
 .hero-container {
     height: 100vh;
     width: 100%;

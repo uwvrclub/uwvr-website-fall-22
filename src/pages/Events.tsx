@@ -6,17 +6,20 @@ import 'react-multi-carousel/lib/styles.css'
 import EventsSlider from '../components/EventsSlider'
 import { PastEventsData } from '../data/PastEventsData'
 import { UpcomingEventsData } from '../data/UpcomingEventsData'
+import '../styles/Events.scss'
 
 function Events() {
     return (
         <>
             <NavBar />
-            <HeroBanner src="images/banners/events.jpg" title="Events" />
-            <EventsSlider
-                events={UpcomingEventsData}
-                heading="Upcoming Events"
-            />
-            <EventsSlider events={PastEventsData} heading="Past Events" />
+            <div className="events">
+                <HeroBanner src="images/banners/events.jpg" title="Events" />
+                <EventsSlider
+                    events={UpcomingEventsData}
+                    heading="Upcoming Events"
+                />
+                <EventsSlider events={PastEventsData} heading="Past Events" />
+            </div>
             <Footer />
         </>
     )

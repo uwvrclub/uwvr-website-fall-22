@@ -23,23 +23,26 @@ const EventsSlider = (props: EventsData) => {
 
     return (
         <>
-            <h2>{props.heading}</h2>
-            <div className="slider">
-                <FaArrowAltCircleLeft
-                    className="left-arrow"
-                    onClick={prevSlide}
-                />
-                <FaArrowAltCircleRight
-                    className="right-arrow"
-                    onClick={nextSlide}
-                />
-                <div className="slide active">
-                    <img
-                        src={props.events[currentSlide].image}
-                        className="image"
+            <div className="events">
+                <h2>{props.heading}</h2>
+                <div className="slider">
+                    <FaArrowAltCircleLeft
+                        className="left-arrow"
+                        onClick={prevSlide}
                     />
-                    <h3>{props.events[currentSlide].title}</h3>
-                    <p>{props.events[currentSlide].content}</p>
+                    <FaArrowAltCircleRight
+                        className="right-arrow"
+                        onClick={nextSlide}
+                    />
+                    <div className="slide active">
+                        <img
+                            src={props.events[currentSlide].image}
+                            className="image"
+                            alt=""
+                        />
+                        <h3>{props.events[currentSlide].title}</h3>
+                        <p>{props.events[currentSlide].content}</p>
+                    </div>
                 </div>
             </div>
         </>

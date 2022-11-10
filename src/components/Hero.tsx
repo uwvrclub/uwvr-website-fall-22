@@ -4,8 +4,28 @@ import '../styles/Hero.scss'
 const Hero = () => {
     return (
         <div className="hero-container">
-            <video src="/videos/hero-background.mp4" autoPlay loop muted />
-            <h1 style={{ color: 'white' }}>replace w anything</h1>
+            <video src="/videos/home.mp4" autoPlay loop muted />
+            <div className="hero-wrapper">
+                <h1>UWVR</h1>
+                <h2>Explore the wondrous world of XR</h2>
+                <br />
+
+                {
+                    // To add buttons in the future
+                    /*
+                        <div className="button-wrapper">
+                            <a href="/projects" className="button">
+                                <span>Our Projects</span>
+                            </a>
+                        </div>
+                        <div className="button-wrapper">
+                            <a href="/projects" className="button">
+                                <span>Our Projects</span>
+                            </a>
+                        </div>
+                    */
+                }
+            </div>
         </div>
     )
 }
