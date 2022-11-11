@@ -10,6 +10,15 @@ function ContactForm() {
                 </h2>
                 <div id="form-main">
                     <form method="post" action="/contact">
+                        <>
+                            {/* 
+                        
+                        1) We can implement a backend
+                        2) We can use an online service (EmailJS, Formspree)
+                        3) Can hide this section for now
+
+                        */}
+                        </>
                         <div className="field-container">
                             <label className="form-label">
                                 Your Full Name<span>*</span>
