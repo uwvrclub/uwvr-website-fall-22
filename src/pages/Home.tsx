@@ -17,6 +17,7 @@ const Home = () => {
             />
 
             <div className="projects">
+                <h2>What We Do</h2>
                 <div className="projects-container">
                     <ProjectCard
                         title="Events &amp; Workshops"
