@@ -12,6 +12,7 @@ function Contacts() {
                     linkedin="https://www.linkedin.com/company/uwvr/"
                     github="https://github.com/uwvrclub/"
                     facebook="https://facebook.com/uwvrclub/"
+                    mail="mailto:uwvrclub@gmail.com"
                 />
             </div>
         </div>

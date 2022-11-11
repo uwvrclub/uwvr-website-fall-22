@@ -53,8 +53,11 @@ function ContactForm() {
                             </div>
                         </div>
                         <div className="field-container">
-                            <div className="button-wrapper">
-                                <button type="submit" className="button">
+                            <div className="contact-button-wrapper">
+                                <button
+                                    type="submit"
+                                    className="contact-button"
+                                >
                                     Send Message
                                 </button>
                             </div>
