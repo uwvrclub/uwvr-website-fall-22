@@ -16,7 +16,7 @@ const Home = () => {
                 content="The University of Waterloo Virtual Reality Club (UWVR) aims to allow students the opportunities to explore, experience, and contribute to the fascinating world of XR."
             />
 
-            <div className="projects">
+            <div className="projects-home">
                 <h2>What We Do</h2>
                 <div className="projects-container">
                     <ProjectCard
