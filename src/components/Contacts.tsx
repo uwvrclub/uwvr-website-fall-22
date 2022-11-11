@@ -1,35 +1,18 @@
 import React from 'react'
 import '../styles/Contacts.scss'
+import SocialButtons from './SocialButtons'
 
 function Contacts() {
     return (
         <div className="main">
             <div className="contacts-wrapper">
-                <h2>Contact Us At:</h2>
-                <p>
-                    Email:{' '}
-                    <a href="mailto:uwvrclub@gmail.com">uwvrclub@gmail.com</a>
-                </p>
-                <p>
-                    Instagram:{' '}
-                    <a
-                        href="https://www.instagram.com/uwvrclub/"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        @uwvrclub
-                    </a>
-                </p>
-                <p>
-                    Facebook:{' '}
-                    <a
-                        href="https://www.facebook.com/UWaterlooVR/"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        UWVR Club
-                    </a>
-                </p>
+                <h2>Or reach out to us on any of our social media accounts!</h2>
+                <SocialButtons
+                    instagram="https://www.instagram.com/uwvrclub/"
+                    linkedin="https://www.linkedin.com/company/uwvr/"
+                    github="https://github.com/uwvrclub/"
+                    facebook="https://facebook.com/uwvrclub/"
+                />
             </div>
         </div>
     )
