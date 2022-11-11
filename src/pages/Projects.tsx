@@ -9,8 +9,12 @@ function Projects() {
     return (
         <>
             <NavBar />
-            <HeroBanner title="Projects" src="images/banners/projects.jpeg" />
+
             <div className="projects">
+                <HeroBanner
+                    title="Projects"
+                    src="images/banners/projects.jpeg"
+                />
                 <h2>Current Projects</h2>
 
                 <div className="projects-container">
