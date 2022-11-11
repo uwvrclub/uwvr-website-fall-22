@@ -36,7 +36,7 @@ function Projects() {
                 </div>
 
                 <h2>Upcoming Projects</h2>
-                <div className="projects-container">
+                <div className="projects-container upcoming">
                     <ProjectCard
                         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Dignissim enim sit amet venenatis urna cursus eget nunc."
                         src="images/events/events-placeholder.jpeg"

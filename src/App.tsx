@@ -8,6 +8,7 @@ import NoPage from './pages/NoPage'
 import Events from './pages/Events'
 import Projects from './pages/Projects'
 import Gallery from './pages/Gallery'
+import Apply from './pages/Apply'
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                 <Route path="events" element={<Events />} />
                 <Route path="projects" element={<Projects />} />
                 <Route path="gallery" element={<Gallery />} />
+                <Route path="apply" element={<Apply />} />
                 <Route path="*" element={<NoPage />} />
             </Routes>
         </BrowserRouter>
