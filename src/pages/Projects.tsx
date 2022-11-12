@@ -19,30 +19,27 @@ function Projects() {
 
                 <div className="projects-container">
                     <ProjectCard
+                        title="Virtual Reality Escape Room"
                         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Dignissim enim sit amet venenatis urna cursus eget nunc."
-                        src="images/events/events-placeholder.jpeg"
+                        src="images/events/5.png"
                         alt=""
                     />
                     <ProjectCard
-                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Dignissim enim sit amet venenatis urna cursus eget nunc."
-                        src="images/events/events-placeholder.jpeg"
-                        alt=""
-                    />
-                    <ProjectCard
+                        title="3D Interactive Website"
                         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Dignissim enim sit amet venenatis urna cursus eget nunc."
                         src="images/events/events-placeholder.jpeg"
                         alt=""
                     />
                 </div>
-
-                <h2>Upcoming Projects</h2>
                 <div className="projects-container upcoming">
                     <ProjectCard
+                        title="UWVR Talks: Metaverses"
                         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Dignissim enim sit amet venenatis urna cursus eget nunc."
                         src="images/events/events-placeholder.jpeg"
                         alt=""
                     />
                     <ProjectCard
+                        title="UWVR Stickers"
                         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Dignissim enim sit amet venenatis urna cursus eget nunc."
                         src="images/events/events-placeholder.jpeg"
                         alt=""
