@@ -53,6 +53,50 @@
         text-align: center;
         width: 600px;
     }
+
+    @media screen and (max-width: 1096px) {
+        .left-arrow {
+            left: 100px;
+        }
+
+        .right-arrow {
+            right: 100px;
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        .slide.active {
+            width: 300px;
+            height: auto;
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+        }
+
+        .left-arrow {
+            left: 20px;
+            top: 29%;
+        }
+
+        .right-arrow {
+            right: 20px;
+            top: 29%;
+        }
+    }
+
+    /*
+    @media screen and (max-width: 1048px) {
+    
+        .left-arrow {
+            left: 100px;
+        }
+
+        .right-arrow {
+            right: 100px;
+        }
+    }*/
 }
 
 h2 {

@@ -17,12 +17,9 @@ function NavBar() {
             <div className="nav-logo">
                 <a href="/">
                     UWVR
-                    <img
-                        src="images/logos/uwvr-logo-transparent.png"
-                        alt="UWVR Logo"
-                        width="95px"
-                        height="95px"
-                    />
+                    <span>
+                        <img src="images/logos/uwvr-logo.png" alt="UWVR Logo" />
+                    </span>
                 </a>
             </div>
             <div className="nav-menu-container" onClick={handleMobileClick}>
