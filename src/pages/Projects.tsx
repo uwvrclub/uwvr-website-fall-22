@@ -21,13 +21,13 @@ function Projects() {
                     <ProjectCard
                         title="Virtual Reality Escape Room"
                         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Dignissim enim sit amet venenatis urna cursus eget nunc."
-                        src="images/events/5.png"
+                        src="images/projects/3d-escape-rm.jpg"
                         alt=""
                     />
                     <ProjectCard
                         title="3D Interactive Website"
                         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Dignissim enim sit amet venenatis urna cursus eget nunc."
-                        src="images/events/events-placeholder.jpeg"
+                        src="images/projects/3js-website.jpeg"
                         alt=""
                     />
                 </div>
@@ -35,7 +35,7 @@ function Projects() {
                     <ProjectCard
                         title="UWVR Talks: Metaverses"
                         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Dignissim enim sit amet venenatis urna cursus eget nunc."
-                        src="images/events/events-placeholder.jpeg"
+                        src="images/projects/podcast.png"
                         alt=""
                     />
                     <ProjectCard
