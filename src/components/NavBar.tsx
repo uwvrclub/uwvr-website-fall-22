@@ -15,7 +15,7 @@ function NavBar() {
     return (
         <nav className="navbar">
             <div className="nav-logo">
-                <a href="/">
+                <a href="#/">
                     UWVR
                     <span>
                         <img src="images/logos/uwvr-logo.png" alt="UWVR Logo" />
@@ -25,19 +25,19 @@ function NavBar() {
             <div className="nav-menu-container" onClick={handleMobileClick}>
                 <ul className={menuToggled ? 'nav-menu expanded' : 'nav-menu'}>
                     <li className="nav-menu-item">
-                        <a href="/">Home</a>
+                        <a href="#/">Home</a>
                     </li>
                     <li className="nav-menu-item">
-                        <a href="/about">About</a>
+                        <a href="#/about">About</a>
                     </li>
                     <li className="nav-menu-item">
-                        <a href="/events">Events</a>
+                        <a href="#/events">Events</a>
                     </li>
                     <li className="nav-menu-item">
-                        <a href="/projects">Projects</a>
+                        <a href="#/projects">Projects</a>
                     </li>
                     <li className="nav-menu-item">
-                        <a href="/contact">Contact</a>
+                        <a href="#/contact">Contact</a>
                     </li>
                 </ul>
             </div>
