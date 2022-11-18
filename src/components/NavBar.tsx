@@ -15,7 +15,7 @@ function NavBar() {
     return (
         <nav className="navbar">
             <div className="nav-logo">
-                <a href="/">
+                <a href="#/">
                     UWVR
                     <img
                         src="images/logos/uwvr-logo-transparent.png"
