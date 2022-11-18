@@ -17,7 +17,7 @@ const NoPage = () => {
                     <h2>Sorry, the page you were looking does not exist.</h2>
                     <p>
                         Return back to the <a href="/">home page</a>, or{' '}
-                        <a href="/contact">contact us</a> if you can't find what
+                        <a href="#/contact">contact us</a> if you can't find what
                         you were looking for!
                     </p>
                 </div>

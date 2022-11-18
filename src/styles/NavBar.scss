@@ -29,7 +29,10 @@
 }
 
 .nav-logo img {
-    margin-left: -8px;
+    overflow: auto;
+    margin: 15px 15px 0;
+    width: 50px;
+    height: auto;
 }
 
 .nav-menu {
@@ -71,10 +74,6 @@
 }
 
 @media screen and (max-width: 968px) {
-    .nav-logo img {
-        display: none;
-    }
-
     .nav-menu {
         display: block;
         flex-direction: column;
@@ -113,7 +112,6 @@
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate(25%, 50%);
     }
 
     .menu-btn {

@@ -17,8 +17,8 @@ function Gallery() {
                 <div className="gallery-disclaimer">
                     <h2>
                         Stay tuned for our gallery coming soon! Return back to
-                        the <a href="/">home page</a>, or{' '}
-                        <a href="/contact">contact us</a> if you have any
+                        the <a href="#/">home page</a>, or{' '}
+                        <a href="#/contact">contact us</a> if you have any
                         questions!
                     </h2>
                 </div>

@@ -23,21 +23,21 @@ const Home = () => {
                         title="Events &amp; Workshops"
                         cta="See Our Events"
                         content="Learn more about our past and upcoming events/workshops, and participate in our upcoming activities!"
-                        src="images/events/events-placeholder.jpeg"
+                        src="images/events/ctrlv-2.jpg"
                         alt=""
                     />
                     <ProjectCard
                         title="Our Projects"
                         cta="See Our Projects"
                         content="Find some of our amazing past projects, and learn more about the projects we are currently working on!"
-                        src="images/events/events-placeholder.jpeg"
+                        src="images/projects/3d-escape-rm.jpg"
                         alt=""
                     />
                     <ProjectCard
                         title="Get Involved"
                         cta="Get Involved"
                         content="Looking to get involved within the VR community? Join our discord or contact us to get the latest updates!"
-                        src="images/events/events-placeholder.jpeg"
+                        src="images/events/ctrlv-3.jpg"
                         alt=""
                     />
                 </div>

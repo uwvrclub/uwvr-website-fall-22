@@ -16,7 +16,7 @@ function Events() {
                 <HeroBanner src="images/banners/events.jpg" title="Events" />
                 <EventsSlider
                     events={UpcomingEventsData}
-                    heading="Upcoming Events"
+                    heading="Fall 2022 Events"
                 />
                 <EventsSlider events={PastEventsData} heading="Past Events" />
             </div>

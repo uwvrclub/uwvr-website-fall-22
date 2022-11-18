@@ -19,7 +19,7 @@ const About = () => {
                         wondrous world of XR (VR &amp; AR)."
             />
             <section className="section-about">
-                <div className="about">
+                <div className="#/about">
                     <div className="about-wrapper-left">
                         <div className="left">
                             <h2>Projects</h2>
@@ -34,10 +34,12 @@ const About = () => {
                                 </a>
                             </div>
                         </div>
-                        <img
-                            src="images/projects/projects.png"
-                            alt="Projects"
-                        />
+                        <div>
+                            <img
+                                src="images/projects/projects.png"
+                                alt="Projects"
+                            />
+                        </div>
                     </div>
                     <div className="about-wrapper-right">
                         <img
@@ -52,7 +54,7 @@ const About = () => {
                                 developments in the XR world.
                             </p>
                             <div className="button-wrapper">
-                                <a className="button" href="/projects">
+                                <a className="button" href="#/projects">
                                     Read More
                                 </a>
                             </div>
@@ -67,7 +69,7 @@ const About = () => {
                                 community.
                             </p>
                             <div className="button-wrapper">
-                                <a className="button" href="/events">
+                                <a className="button" href="#/events">
                                     Our Events
                                 </a>
                             </div>
@@ -87,7 +89,7 @@ const About = () => {
                                 new professional opportunities.
                             </p>
                             <div className="button-wrapper">
-                                <a className="button" href="/contact">
+                                <a className="button" href="#/contact">
                                     Get Involved
                                 </a>
                             </div>
