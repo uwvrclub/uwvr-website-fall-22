@@ -1,6 +1,7 @@
 {
     "name": "uwvr-website-fall-22",
     "version": "0.1.0",
+    "homepage": ".",
     "private": true,
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.5",
@@ -15,6 +16,7 @@
         "react-scripts": "5.0.1",
         "react-slick": "^0.29.0",
         "sass": "^1.55.0",
+        "switch": "^0.0.0",
         "typescript": "^4.8.4",
         "web-vitals": "^2.1.4"
     },
