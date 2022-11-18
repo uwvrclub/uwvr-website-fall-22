@@ -12,7 +12,9 @@ import Apply from './pages/Apply'
 
 function App() {
     /*
-<BrowserRouter>
+        ---- BrowserRouter Implementation  ----
+
+        <BrowserRouter>
             <Routes>
                 <Route index element={<Home />} />
                 <Route path="about" element={<About />} />
@@ -26,9 +28,9 @@ function App() {
         </BrowserRouter>
     */
     return (
+        // HashRouter required for static deployments
         <HashRouter>
-       
-          <Routes>
+            <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
@@ -37,9 +39,8 @@ function App() {
                 <Route path="/gallery" element={<Gallery />} />
                 <Route path="/apply" element={<Apply />} />
                 <Route path="*" element={<NoPage />} />
-          </Routes>
-      </HashRouter>
-
+            </Routes>
+        </HashRouter>
     )
 }
 
