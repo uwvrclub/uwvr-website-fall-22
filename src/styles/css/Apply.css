@@ -1,14 +1,14 @@
 .apply {
-  background-color: #cfd4f4;
+    background-color: #cfd4f4;
 }
 
 .apply-disclaimer {
-  background-color: #cfd4f4;
-  height: 20vh;
-  line-height: 3;
-  text-align: center;
+    background-color: #cfd4f4;
+    height: 20vh;
+    line-height: 3;
+    text-align: center;
 }
 .apply-disclaimer a {
-  text-decoration: none;
-  color: blue;
-}/*# sourceMappingURL=Apply.css.map */
+    text-decoration: none;
+    color: blue;
+} /*# sourceMappingURL=Apply.css.map */

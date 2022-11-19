@@ -2,22 +2,35 @@
     background-color: #cfd4f4;
     padding-bottom: 100px;
     margin-top: -70px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 
     h2 {
         margin-bottom: 10px;
-
         font-size: 32pt;
     }
-}
 
-.projects-container {
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    margin-top: 50px;
-    padding-left: 50px;
-    display: flex;
+    .projects-container {
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        padding: 0;
+        display: flex;
+
+        .button-wrapper {
+            margin-top: 25px;
+        }
+        .button {
+            border: 2px solid black;
+            background-color: rgb(231, 228, 255);
+            color: black;
+        }
+
+        .button:hover {
+            background-color: black;
+            color: #cfd4f4;
+        }
+    }
 }
 
 @media screen and (max-width: 1248px) {
