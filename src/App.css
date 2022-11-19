@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+@media screen and (max-width: 648px) {
+    body {
+        display: flex;
+    }
+}
 
 h1,
 h2,

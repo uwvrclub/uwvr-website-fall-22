@@ -1,23 +1,23 @@
 .hero-main {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 100px;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 100px;
 }
 
 .hero-wrapper {
-    height: 250px;
-    width: 100%;
-    display: table;
-    align-items: center;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.4);
+  height: 250px;
+  width: 100%;
+  display: table;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 h1 {
-    vertical-align: middle;
-    line-height: 250px;
-    font-size: 50pt;
-} /*# sourceMappingURL=HeroBanner.css.map */
+  vertical-align: middle;
+  line-height: 250px;
+  font-size: 50pt;
+}/*# sourceMappingURL=HeroBanner.css.map */
