@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/ProjectCard.scss'
+import '../styles/css/ProjectCard.css'
 
 interface ProjectCardProps {
     src?: string
@@ -7,6 +7,7 @@ interface ProjectCardProps {
     content?: string
     title?: string
     cta?: string
+    href?: string
 }
 
 function ProjectCard(props: ProjectCardProps) {
@@ -22,9 +23,11 @@ function ProjectCard(props: ProjectCardProps) {
                 </div>
                 {props.cta && (
                     <div className="button-wrapper">
-                        <a className="button" href="/projects">
-                            {props.cta}
-                        </a>
+                        {props.href && (
+                            <a className="button" href={props.href}>
+                                {props.cta}
+                            </a>
+                        )}
                     </div>
                 )}
             </div>

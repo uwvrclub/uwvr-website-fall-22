@@ -1,5 +1,5 @@
 import { Instagram, Linkedin, GitHub, Mail, Facebook } from 'react-feather'
-import '../styles/SocialButtons.scss'
+import '../styles/css/SocialButtons.css'
 
 interface SocialsButtonsProps {
     instagram?: string

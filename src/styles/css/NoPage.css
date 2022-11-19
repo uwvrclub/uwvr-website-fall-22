@@ -1,0 +1,26 @@
+.no-page-content {
+  display: table;
+  height: 400px;
+  background-color: rgb(156, 156, 156);
+  width: 100%;
+  text-align: center;
+  line-height: 2.5;
+}
+.no-page-content .no-page-content-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+.no-page-content .no-page-content-wrapper h2 {
+  font-size: 26pt;
+  margin: 0;
+}
+.no-page-content p {
+  font-size: 16pt;
+}
+.no-page-content a {
+  color: rgb(40, 40, 211);
+  text-decoration: none;
+}
+.no-page-content a:hover {
+  color: blue;
+}/*# sourceMappingURL=NoPage.css.map */

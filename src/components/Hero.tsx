@@ -1,10 +1,10 @@
 import React from 'react'
-import '../styles/Hero.scss'
+import '../styles/css/Hero.css'
 
 const Hero = () => {
     return (
         <div className="hero-container">
-            <video src="/build/videos/home.mp4" autoPlay loop muted />
+            <video src="videos/home.mp4" autoPlay loop muted />
             <div className="hero-wrapper">
                 <h1>UWVR</h1>
                 <h2>Explore the wondrous world of XR</h2>
