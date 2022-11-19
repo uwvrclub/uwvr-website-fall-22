@@ -10,8 +10,9 @@
     display: table-cell;
     vertical-align: middle;
 }
-.no-page-content h2 {
+.no-page-content .no-page-content-wrapper h2 {
     font-size: 26pt;
+    margin: 0;
 }
 .no-page-content p {
     font-size: 16pt;
