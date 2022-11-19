@@ -1,39 +1,39 @@
 .card-container {
-  width: 350px;
-  height: 400px;
-  overflow: hidden;
-  transition: 0.4s;
-  -webkit-animation: ease-in;
-          animation: ease-in;
-  border: solid;
-  margin: 0 50px 0;
-  text-align: center;
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    transition: 0.4s;
+    -webkit-animation: ease-in;
+    animation: ease-in;
+    border: solid;
+    margin: 0 50px 0;
+    text-align: center;
 }
 .card-container .img-container {
-  overflow: hidden;
-  height: 200px;
+    overflow: hidden;
+    height: 200px;
 }
 .card-container .img-container img {
-  height: 200px;
-  width: 100%;
+    height: 200px;
+    width: 100%;
 }
 .card-container .button {
-  background-color: black;
-  color: #cfd4f4;
-  padding: 10px 20px;
-  text-decoration: none;
+    background-color: black;
+    color: #cfd4f4;
+    padding: 10px 20px;
+    text-decoration: none;
 }
 .card-container .card-title {
-  margin: 0;
-  margin-top: 7px;
-  font-size: 16pt;
-  margin-bottom: 0.5rem;
+    margin: 0;
+    margin-top: 7px;
+    font-size: 16pt;
+    margin-bottom: 0.5rem;
 }
 .card-container .card-text {
-  margin: 1rem;
-  margin-top: 0.5rem;
+    margin: 1rem;
+    margin-top: 0.5rem;
 }
 
 .card-container:hover {
-  transform: scale(1.06);
-}/*# sourceMappingURL=ProjectCard.css.map */
+    transform: scale(1.06);
+} /*# sourceMappingURL=ProjectCard.css.map */
