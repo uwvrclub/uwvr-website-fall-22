@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Contacts.scss'
+import '../styles/css/Contacts.css'
 import SocialButtons from './SocialButtons'
 
 function Contacts() {

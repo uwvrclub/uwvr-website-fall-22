@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/HeroBanner.scss'
+import '../styles/css/HeroBanner.css'
 
 interface HeroBannerProps {
     src?: string

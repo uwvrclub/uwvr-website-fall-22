@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/PurposeStatement.scss'
+import '../styles/css/PurposeStatement.css'
 
 interface PurposeStatementProps {
     title?: string

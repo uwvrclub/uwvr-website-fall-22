@@ -1,0 +1,1 @@
+{"version":3,"sources":["../scss/PurposeStatement.scss","PurposeStatement.css"],"names":[],"mappings":"AAAA;EACI,aAAA;EACA,WAAA;EACA,aAAA;EACA,uBAAA;EACA,yBAAA;EACA,kBAAA;EACA,mBAAA;EACA,cAAA;ACCJ;ADCI;EACI,cAAA;EACA,eAAA;EACA,gBAAA;ACCR;ADEI;EACI,eAAA;ACAR;ADGI;EACI,iBAAA;ACDR;ADII;EACI;IACI,eAAA;ECFV;EDKM;IACI,eAAA;ECHV;EDMM;IACI,gBAAA;ECJV;AACF","file":"PurposeStatement.css"}

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/ContactForm.scss'
+import '../styles/css/ContactForm.css'
 
 function ContactForm() {
     return (

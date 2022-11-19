@@ -6,7 +6,7 @@ import 'react-multi-carousel/lib/styles.css'
 import EventsSlider from '../components/EventsSlider'
 import { PastEventsData } from '../data/PastEventsData'
 import { UpcomingEventsData } from '../data/UpcomingEventsData'
-import '../styles/Events.scss'
+import '../styles/css/Events.css'
 
 function Events() {
     return (

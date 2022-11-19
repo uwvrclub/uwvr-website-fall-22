@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../components/Footer'
 import HeroBanner from '../components/HeroBanner'
 import NavBar from '../components/NavBar'
-import '../styles/NoPage.scss'
+import '../styles/css/NoPage.css'
 
 const NoPage = () => {
     return (

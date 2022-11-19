@@ -1,0 +1,87 @@
+#form-main {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+.contact-button-wrapper {
+  width: 190px;
+  margin: auto;
+}
+
+.contact-button:hover {
+  background-color: rgb(186, 217, 186);
+  color: black;
+}
+
+.contact-button {
+  font-size: 14pt;
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  justify-self: center;
+  margin: auto;
+  width: auto;
+}
+
+.contact-title {
+  margin-bottom: 50px;
+  font-size: 30pt;
+}
+
+.form-container {
+  background-color: #cfd4f4;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  padding: 30px;
+  padding-bottom: 10px;
+  max-width: 100%;
+}
+
+.field-container {
+  margin-bottom: 1rem;
+}
+
+.form-input {
+  margin: auto;
+  justify-self: center;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.form-input-area {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 350;
+  line-height: 1.5;
+  color: #555b61;
+  background-color: white;
+}
+
+label {
+  font-size: 16pt;
+}
+label span {
+  color: red;
+}
+
+textarea.form-input-area {
+  height: auto;
+}
+
+label.form-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}/*# sourceMappingURL=ContactForm.css.map */

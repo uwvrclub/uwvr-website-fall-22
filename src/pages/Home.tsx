@@ -4,7 +4,7 @@ import NavBar from '../components/NavBar'
 import Hero from '../components/Hero'
 import PurposeStatement from '../components/PurposeStatement'
 import ProjectCard from '../components/ProjectCard'
-import '../styles/Home.scss'
+import '../styles/css/Home.css'
 
 const Home = () => {
     return (

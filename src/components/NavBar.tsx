@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../styles/NavBar.scss'
+import '../styles/css/NavBar.css'
 
 function NavBar() {
     const [menuToggled, setMenuToggled] = useState(false)

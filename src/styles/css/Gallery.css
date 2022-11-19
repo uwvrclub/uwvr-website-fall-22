@@ -1,0 +1,14 @@
+.gallery {
+  background-color: #cfd4f4;
+}
+
+.gallery-disclaimer {
+  background-color: #cfd4f4;
+  height: 20vh;
+  line-height: 3;
+  text-align: center;
+}
+.gallery-disclaimer a {
+  text-decoration: none;
+  color: blue;
+}/*# sourceMappingURL=Gallery.css.map */

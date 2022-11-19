@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 import HeroBanner from '../components/HeroBanner'
 import NavBar from '../components/NavBar'
 import ProjectCard from '../components/ProjectCard'
-import '../styles/Projects.scss'
+import '../styles/css/Projects.css'
 
 function Projects() {
     return (
