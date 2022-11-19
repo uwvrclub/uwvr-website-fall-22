@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/MissionStatement.scss'
+import '../styles/css/MissionStatement.css'
 
 interface MissionStatementProps {
     title?: string

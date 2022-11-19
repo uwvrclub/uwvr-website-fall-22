@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa'
-import '../styles/EventsSlider.scss'
+import '../styles/css/EventsSlider.css'
 
 interface EventsData {
     events?: Array<any>

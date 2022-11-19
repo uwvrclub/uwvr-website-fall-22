@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/ProjectCard.scss'
+import '../styles/css/ProjectCard.css'
 
 interface ProjectCardProps {
     src?: string

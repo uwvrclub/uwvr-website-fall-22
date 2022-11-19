@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 import HeroBanner from '../components/HeroBanner'
 import MissionStatement from '../components/MissionStatement'
 import NavBar from '../components/NavBar'
-import '../styles/About.scss'
+import '../styles/css/About.css'
 
 const About = () => {
     return (

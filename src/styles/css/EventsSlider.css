@@ -1,0 +1,104 @@
+.slider {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.7;
+    transition: all ease-in 0.5s;
+    /*
+  @media screen and (max-width: 1048px) {
+
+      .left-arrow {
+          left: 100px;
+      }
+
+      .right-arrow {
+          right: 100px;
+      }
+  }*/
+}
+.slider img {
+    width: auto;
+    height: 350px;
+    border-radius: 10px;
+    transition: all ease-in 0.5s;
+    max-width: 600px;
+}
+.slider .right-arrow {
+    display: block;
+    position: absolute;
+    top: 40%;
+    right: 200px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.slider .left-arrow {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 200px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.slider .slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+.slider .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 600px;
+}
+@media screen and (max-width: 1096px) {
+    .slider .left-arrow {
+        left: 100px;
+    }
+    .slider .right-arrow {
+        right: 100px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .slider .slide.active {
+        width: 300px;
+        height: auto;
+    }
+    .slider img {
+        width: 300px;
+        height: auto;
+    }
+    .slider .left-arrow {
+        left: 20px;
+        top: 29%;
+    }
+    .slider .right-arrow {
+        right: 20px;
+        top: 29%;
+    }
+}
+
+h2 {
+    margin: 50px 0 -50px;
+    text-align: center;
+    font-size: 30pt;
+}
+
+h3 {
+    font-size: 18pt;
+} /*# sourceMappingURL=EventsSlider.css.map */
