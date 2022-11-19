@@ -3,6 +3,7 @@ import Footer from '../components/Footer'
 import HeroBanner from '../components/HeroBanner'
 import MissionStatement from '../components/MissionStatement'
 import NavBar from '../components/NavBar'
+//import '../styles/css/About.css'
 import '../styles/css/About.css'
 
 const About = () => {
@@ -19,7 +20,7 @@ const About = () => {
                         wondrous world of XR (VR &amp; AR)."
             />
             <section className="section-about">
-                <div className="#/about">
+                <div className="about">
                     <div className="about-wrapper-left">
                         <div className="left">
                             <h2>Projects</h2>
