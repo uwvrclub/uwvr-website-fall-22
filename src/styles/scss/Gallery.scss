@@ -12,4 +12,18 @@
         text-decoration: none;
         color: blue;
     }
+
+    h2 {
+        font-size: 18pt;
+
+        @media screen and (max-width: 960px) {
+            margin: 0 50px 0;
+        }
+
+        @media screen and (max-width: 760px) {
+            padding-top: 20px;
+            font-size: 13pt;
+            line-height: 2.8;
+        }
+    }
 }

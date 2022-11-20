@@ -79,7 +79,7 @@ const About = () => {
                     </div>
                     <div className="about-wrapper-right">
                         <img
-                            src="images/get-involved.jpeg"
+                            src="images/events/get-involved.png"
                             alt="Get Involved"
                         />
                         <div className="right">
