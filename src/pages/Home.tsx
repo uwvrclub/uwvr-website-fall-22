@@ -5,8 +5,15 @@ import Hero from '../components/Hero'
 import PurposeStatement from '../components/PurposeStatement'
 import ProjectCard from '../components/ProjectCard'
 import '../styles/css/Home.css'
+import { useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 
 const Home = () => {
+    const { pathname } = useLocation()
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [pathname])
     return (
         <div className="home">
             <NavBar />

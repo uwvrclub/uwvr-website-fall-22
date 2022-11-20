@@ -4,8 +4,14 @@ import HeroBanner from '../components/HeroBanner'
 import NavBar from '../components/NavBar'
 import ProjectCard from '../components/ProjectCard'
 import '../styles/css/Projects.css'
-
+import { useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 function Projects() {
+    const { pathname } = useLocation()
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [pathname])
     return (
         <>
             <NavBar />
@@ -26,7 +32,7 @@ function Projects() {
                     />
                     <ProjectCard
                         title="3D Interactive Website"
-                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Dignissim enim sit amet venenatis urna cursus eget nunc."
+                        content="The UWVR Web Developement Team is currently developing a newly branded interactive website for the club with the use of 3D technologies such as Three.js, Blender, and more."
                         src="images/projects/3js-website.jpeg"
                         alt=""
                     />
@@ -43,7 +49,9 @@ function Projects() {
                     />
                     <ProjectCard
                         title="UWVR Stickers"
-                        content="Coming soon!"
+                        content="UWVR Stickers is coming soon! Stay tuned on our social media accounts to stay up to date on our launch for this project."
+                        cta="Learn More"
+                        href="/contact"
                         src=""
                         alt=""
                     />
