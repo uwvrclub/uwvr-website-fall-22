@@ -31,8 +31,8 @@ const Footer = () => {
                         <SocialButtons
                             instagram="https://www.instagram.com/uwvrclub/"
                             linkedin="https://www.linkedin.com/company/uwvr/"
-                            github="https://github.com/uwvrclub/"
                             facebook="https://facebook.com/uwvrclub/"
+                            discord="https://tr.ee/Gw-h0e9_x9"
                         />
                     </a>
                 </div>

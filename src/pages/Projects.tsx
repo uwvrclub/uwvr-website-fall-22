@@ -52,7 +52,7 @@ function Projects() {
                         content="UWVR Stickers is coming soon! Stay tuned on our social media accounts to stay up to date on our launch for this project."
                         cta="Learn More"
                         href="/contact"
-                        src=""
+                        src="images/logos/uwvr-logo-2.png"
                         alt=""
                     />
                 </div>

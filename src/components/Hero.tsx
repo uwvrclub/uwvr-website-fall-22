@@ -4,7 +4,7 @@ import '../styles/css/Hero.css'
 const Hero = () => {
     return (
         <div className="hero-container">
-            <video id="my-video" src="videos/home2.mp4" autoPlay loop muted />
+            <video src="videos/home.mp4" autoPlay loop muted />
             <div className="hero-wrapper-home">
                 <h1>UWVR</h1>
                 <h2>Explore the wondrous world of XR</h2>
