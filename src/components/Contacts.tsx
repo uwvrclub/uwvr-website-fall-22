@@ -13,6 +13,7 @@ function Contacts() {
                     github="https://github.com/uwvrclub/"
                     facebook="https://facebook.com/uwvrclub/"
                     mail="mailto:uwvrclub@gmail.com"
+                    discord="https://tr.ee/Gw-h0e9_x9"
                 />
             </div>
         </div>

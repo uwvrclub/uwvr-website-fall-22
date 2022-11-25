@@ -1,4 +1,5 @@
 import { Instagram, Linkedin, GitHub, Mail, Facebook } from 'react-feather'
+import { FaDiscord } from 'react-icons/fa'
 import '../styles/css/SocialButtons.css'
 
 interface SocialsButtonsProps {
@@ -7,6 +8,7 @@ interface SocialsButtonsProps {
     github?: string
     mail?: string
     facebook?: string
+    discord?: string
 }
 
 export function SocialButtons(props: SocialsButtonsProps) {
@@ -60,6 +62,16 @@ export function SocialButtons(props: SocialsButtonsProps) {
                     rel="noreferrer"
                 >
                     <Mail />
+                </a>
+            )}
+            {props.discord && (
+                <a
+                    className="social-button-icon"
+                    href={props.discord}
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <FaDiscord />
                 </a>
             )}
         </div>

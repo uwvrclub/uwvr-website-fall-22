@@ -5,8 +5,15 @@ import MissionStatement from '../components/MissionStatement'
 import NavBar from '../components/NavBar'
 //import '../styles/css/About.css'
 import '../styles/css/About.css'
+import { useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 
 const About = () => {
+    const { pathname } = useLocation()
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [pathname])
     return (
         <div>
             <NavBar />
@@ -30,14 +37,14 @@ const About = () => {
                                 showcase the potential of VR/AR.
                             </p>
                             <div className="button-wrapper">
-                                <a className="button" href="/projects">
+                                <a className="button" href="#/projects">
                                     Learn More
                                 </a>
                             </div>
                         </div>
                         <div>
                             <img
-                                src="images/projects/projects.png"
+                                src="images/events/projects.jpg"
                                 alt="Projects"
                             />
                         </div>
@@ -79,7 +86,7 @@ const About = () => {
                     </div>
                     <div className="about-wrapper-right">
                         <img
-                            src="images/get-involved.jpeg"
+                            src="images/events/get-involved.png"
                             alt="Get Involved"
                         />
                         <div className="right">

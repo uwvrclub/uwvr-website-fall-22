@@ -7,8 +7,15 @@ import EventsSlider from '../components/EventsSlider'
 import { PastEventsData } from '../data/PastEventsData'
 import { UpcomingEventsData } from '../data/UpcomingEventsData'
 import '../styles/css/Events.css'
+import { useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 
 function Events() {
+    const { pathname } = useLocation()
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [pathname])
     return (
         <>
             <NavBar />

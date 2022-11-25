@@ -8,6 +8,7 @@ interface ProjectCardProps {
     title?: string
     cta?: string
     href?: string
+    newWindow?: boolean
 }
 
 function ProjectCard(props: ProjectCardProps) {
@@ -24,7 +25,12 @@ function ProjectCard(props: ProjectCardProps) {
                 {props.cta && (
                     <div className="button-wrapper">
                         {props.href && (
-                            <a className="button" href={props.href}>
+                            <a
+                                className="button"
+                                href={props.href}
+                                target={props.newWindow ? '_blank' : ''}
+                                rel="noreferrer"
+                            >
                                 {props.cta}
                             </a>
                         )}
