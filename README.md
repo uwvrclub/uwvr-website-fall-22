@@ -1,6 +1,6 @@
-# UWVR Main Club Website (Under Construction)
+# UWVR Main Club Website
 
--   Live Website URL: https://csclub.uwaterloo.ca/~uwvr/ (Soon to be on https://www.uwvr.ca/)
+-   Live Website URL: https://csclub.uwaterloo.ca/~uwvr/
 
 ## Install Dependencies
 
@@ -9,9 +9,6 @@
 ## Run Locally
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Create Production Build
 
