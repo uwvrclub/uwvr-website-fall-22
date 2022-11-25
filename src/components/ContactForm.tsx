@@ -9,7 +9,10 @@ function ContactForm() {
                     Have any questions? Contact Us!
                 </h2>
                 <div id="form-main">
-                    <form method="post" action="/contact">
+                    <form
+                        method="post"
+                        action="https://formspree.io/f/xwkzazzk"
+                    >
                         <>
                             {/* 
                         

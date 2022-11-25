@@ -3,8 +3,15 @@ import Footer from '../components/Footer'
 import HeroBanner from '../components/HeroBanner'
 import NavBar from '../components/NavBar'
 import '../styles/css/Apply.css'
+import { useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 
 function Apply() {
+    const { pathname } = useLocation()
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [pathname])
     return (
         <>
             <NavBar />

@@ -1,33 +1,45 @@
 .projects {
-  background-color: #cfd4f4;
+    background-color: #cfd4f4;
 }
 .projects h2 {
-  font-size: 32pt;
-  margin-bottom: 10px;
+    font-size: 32pt;
+    margin-bottom: 10px;
+}
+.projects .button {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.projects .button:hover {
+    background-color: #95a3ff;
+    color: black;
 }
 
 .projects-container {
-  justify-content: center;
-  width: 100%;
-  height: auto;
-  margin-top: 50px;
-  padding-left: 50px;
-  display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    padding-left: 50px;
+    display: flex;
 }
 
 .projects-container.upcoming {
-  padding-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 @media screen and (max-width: 900px) {
-  .projects-container {
-    align-items: center;
-    flex-direction: column;
-  }
-  .projects-container.upcoming {
-    margin-top: 0;
-  }
-  .projects-container .card-container {
-    margin-bottom: 50px;
-  }
-}/*# sourceMappingURL=Projects.css.map */
+    .projects-container {
+        align-items: center;
+        flex-direction: column;
+    }
+    .projects-container.upcoming {
+        margin-top: 0;
+    }
+    .projects-container .card-container {
+        margin-bottom: 50px;
+    }
+} /*# sourceMappingURL=Projects.css.map */

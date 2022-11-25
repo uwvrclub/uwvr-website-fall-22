@@ -4,8 +4,14 @@ import HeroBanner from '../components/HeroBanner'
 import NavBar from '../components/NavBar'
 import ProjectCard from '../components/ProjectCard'
 import '../styles/css/Projects.css'
-
+import { useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 function Projects() {
+    const { pathname } = useLocation()
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [pathname])
     return (
         <>
             <NavBar />
@@ -13,35 +19,40 @@ function Projects() {
             <div className="projects">
                 <HeroBanner
                     title="Projects"
-                    src="/build/images/banners/projects.jpeg"
+                    src="images/banners/projects.jpeg"
                 />
                 <h2>Current Projects</h2>
 
                 <div className="projects-container">
                     <ProjectCard
                         title="Virtual Reality Escape Room"
-                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Dignissim enim sit amet venenatis urna cursus eget nunc."
-                        src="/build/images/projects/3d-escape-rm.jpg"
+                        content="The UWVR club is developing its own VR escape room game project on the themes of time travel and magic. Through this project, we aim to gain proficiency and knowledge we can pass on to the rest of the community"
+                        src="images/projects/3d-escape-rm.jpg"
                         alt=""
                     />
                     <ProjectCard
                         title="3D Interactive Website"
-                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Dignissim enim sit amet venenatis urna cursus eget nunc."
-                        src="/build/images/projects/3js-website.jpeg"
+                        content="The UWVR Web Developement Team is currently developing a newly branded interactive website for the club with the use of 3D technologies such as Three.js, Blender, and more."
+                        src="images/projects/3js-website.jpeg"
                         alt=""
                     />
                 </div>
                 <div className="projects-container upcoming">
                     <ProjectCard
                         title="UWVR Talks: Metaverses"
-                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Dignissim enim sit amet venenatis urna cursus eget nunc."
-                        src="/build/images/projects/podcast.png"
+                        content="A podcast where we talk about metaverses, their impact on society, and our own personal opinions and experiences on this topic."
+                        src="images/projects/podcast.png"
+                        cta="Listen Now"
+                        href="https://anchor.fm/uwvr"
+                        newWindow={true}
                         alt=""
                     />
                     <ProjectCard
                         title="UWVR Stickers"
-                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vel facilisis volutpat est. Dignissim enim sit amet venenatis urna cursus eget nunc."
-                        src="/build/images/events/events-placeholder.jpeg"
+                        content="UWVR Stickers is coming soon! Stay tuned on our social media accounts to stay up to date on our launch for this project."
+                        cta="Learn More"
+                        href="/contact"
+                        src="images/logos/uwvr-logo-2.png"
                         alt=""
                     />
                 </div>
